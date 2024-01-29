@@ -1,0 +1,9 @@
+@import url(./global/global.css);
+@import url(./global/header.css);
+@import url(./global/footer.css);
+@import url(./global/main.css);
+@import url(./global/animacao.css);
+
+
+
+@import url(./global/componentes.css);

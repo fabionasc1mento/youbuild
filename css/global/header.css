@@ -1,0 +1,27 @@
+.header-bg{
+  background: #fff;
+}
+
+.logo img{
+  width: 70px;
+  height: 70px;
+} 
+ 
+.header-container{
+  padding: 20px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header-options ul li{
+  display: inline-block;
+  margin: 20px;
+}
+
+.header-options a{
+  text-decoration: none;
+  color: #000;
+}
+
