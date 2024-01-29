@@ -16,7 +16,7 @@
 }
 
 .header-options ul li{
-  display: inline-block;
+  display: unset;
   margin: 20px;
 }
 
