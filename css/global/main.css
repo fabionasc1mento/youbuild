@@ -1,4 +1,4 @@
-.main-container{
+.main-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,38 +15,37 @@
 .titulo-main p {
   font: 700 7rem/1.25 "Roboto", sans-serif;
   text-transform: uppercase;
-  color: #242424; /* Cor do texto */
+  color: #242424;
+  /* Cor do texto */
   text-shadow: -0.1px -0.1px 0 cyan, 0.1px -0.1px 0 cyan, -0.1px 0.1px 0 cyan, 0.1px 0.1px 0 cyan;
   transition: 0.5s;
 }
 
-.titulo-main span:hover{
-  color: #fff; 
+.titulo-main span:hover {
+  color: #fff;
   transition: 0.5s;
 }
 
-.titulo-main p:hover{
-  color: #fff; 
+.titulo-main p:hover {
+  color: #fff;
   transition: 0.5s;
 }
 
 
 #imageContainer {
-  position: absolute;
   transition: transform 0.2s ease-out;
 }
- 
-.imagem-main{
-  position: absolute;
-  margin-top: 360px;
+
+.imagem-main {
+  margin-top: -80px;
+  max-width: 100%;
+  height: auto;
 }
 
-.section-container{
+.section-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 400px;
-  gap: 70px;
 }
 
 .section-text {
@@ -56,3 +55,85 @@
   color: #242424;
 }
 
+
+@media (max-width: 880px) {
+  .titulo-main span {
+    font-size: 1rem;
+  }
+
+  .titulo-main p {
+    font-size: 4rem;
+  }
+
+  .imagem-main{
+    margin-top: -55px;
+    margin-left: 70px;
+  }
+
+  .imagem-main img{
+    max-width: 80%;
+  }
+
+  /* SECTION */
+  .section-container img{
+    max-width: 70%;
+    height: auto;
+  }
+
+  .section-text {
+    font-size: 0.825rem;
+    max-width: 40ch;
+    margin-left: -70px;
+  }
+
+}
+
+
+@media (max-width: 650px) {
+  /* SECTION */
+  .section-container img{
+    max-width: 60%;
+    height: auto;
+  }
+
+  .section-text {
+    font-size: 0.725rem;
+    max-width: 40ch;
+    margin-left: -170px;
+  }
+}
+
+@media (max-width: 550px) {
+  .titulo-main span {
+    font-size: 1rem;
+  }
+
+  .titulo-main p {
+    font-size: 3rem;
+  }
+
+  .imagem-main{
+    margin-top: -50px;
+    margin-left: 100px;
+  }
+
+  .imagem-main img{
+    max-width: 70%;
+  }
+    /* SECTION */
+    .section-container{
+      margin: 30px;
+    }
+
+
+    .section-container img{
+      max-width: 30%;
+      margin-left: 30px;
+    }
+  
+    .section-text {
+      font-size: 0.725rem;
+      max-width: 40ch;
+      margin-left: -180px;
+}
+}
