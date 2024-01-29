@@ -14,3 +14,10 @@
   border: 1px solid cyan;
   transition: 0.5s;
 }
+
+
+@media (max-width: 430px) {
+  .btn{
+    font-size: 0.725rem;
+  }
+}
