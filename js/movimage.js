@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var image = imageContainer.querySelector('img');
 
   var smoothness = 60;
-  var maxY = 400; 
+  var maxY = 400; //
 
   document.addEventListener('mousemove', function (event) {
     var mouseX = event.clientX;
