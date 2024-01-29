@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var image = imageContainer.querySelector('img');
 
   var smoothness = 60;
-  var maxY = 400; // Ajuste este valor para definir a posição máxima no eixo Y
+  var maxY = 400; 
 
   document.addEventListener('mousemove', function (event) {
     var mouseX = event.clientX;
