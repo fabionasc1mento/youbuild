@@ -6,6 +6,7 @@
   text-transform: uppercase;
   border: 1px solid #fff;
   cursor: pointer;
+  text-align: center;
 }
 
 .btn:hover {
@@ -16,8 +17,8 @@
 }
 
 
-@media (max-width: 430px) {
+@media (max-width: 540px) {
   .btn{
-    font-size: 0.725rem;
+    font-size: 0.525rem;
   }
 }

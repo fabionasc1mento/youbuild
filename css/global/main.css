@@ -1,3 +1,18 @@
+body{
+  color: #242424;
+  transition: 0.5s;
+}
+
+.logo{
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #242424;
+}
+
+.logo img{
+  margin-bottom: -4px;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -8,16 +23,12 @@
 
 .titulo-main span {
   font: 500 2rem/1.25 "Roboto", sans-serif;
-  color: #242424;
-  text-shadow: -0.1px -0.1px 0 cyan, 0.1px -0.1px 0 cyan, -0.1px 0.1px 0 cyan, 0.1px 0.1px 0 cyan;
+  transition: 0.5s;
 }
 
 .titulo-main p {
   font: 700 7rem/1.25 "Roboto", sans-serif;
   text-transform: uppercase;
-  color: #242424;
-  /* Cor do texto */
-  text-shadow: -0.1px -0.1px 0 cyan, 0.1px -0.1px 0 cyan, -0.1px 0.1px 0 cyan, 0.1px 0.1px 0 cyan;
   transition: 0.5s;
 }
 
@@ -42,6 +53,11 @@
   height: auto;
 }
 
+.imagem-section img{
+  max-width: 80%;
+  height: auto;
+}
+
 .section-container {
   display: flex;
   justify-content: center;
@@ -52,7 +68,20 @@
   font: 300 1rem/1.25 sans-serif;
   line-height: 1.33;
   max-width: 40ch;
-  color: #242424;
+}
+
+.dark-mode{
+    background-color: #242424; /* Cor de fundo para o modo escuro */
+    color: #fff; /* Cor do texto para o modo escuro */
+    transition: 0.5s;
+
+    .titulo-main span:hover {
+      color: #242424;
+    }
+
+    .titulo-main p:hover {
+      color: #242424;
+    }
 }
 
 
